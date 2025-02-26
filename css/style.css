@@ -6,8 +6,7 @@
   font-style: normal; }
 /* =======================================================
 *
-* 	Template Style 
-*	Edit this section
+* 	Authored by Samawati Animations
 *
 * ======================================================= */
 body {
@@ -383,7 +382,6 @@ figure {
 #fh5co-primary-menu > li > ul li > .sf-with-ul:after {
   border: none !important;
   font-family: 'icomoon';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -641,7 +639,7 @@ div.cs-select span {
   top: 12px;
   left: -7px;
   color: #fff;
-  background: #44C662;
+  background: #ee2b27ff;
   padding: 10px 12px;
   font-weight: bold;
   font-size: 12px; }
@@ -654,7 +652,7 @@ div.cs-select span {
   height: 0;
   border-style: solid;
   border-width: 0px 0px 5px 7px;
-  border-color: transparent transparent #44C662 transparent; }
+  border-color: transparent transparent #ee2b27ff transparent; }
 .fh5co-property .prop-details {
   width: 90%;
   margin: 0 auto;
