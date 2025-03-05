@@ -153,8 +153,8 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
+-webkit-appearance: button;
+cursor: pointer;
 }
 
 button[disabled],
@@ -2427,7 +2427,7 @@ pre code {
   }
 
   .col-md-4 {
-    width: 33.33333%;
+    width: 50%;
   }
 
   .col-md-5 {
