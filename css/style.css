@@ -489,6 +489,9 @@ figure {
   padding: 2em 0; }
 #fh5co-search-map .s-holder h2 {
   color: #fff; }
+
+#fh5co-search-map .s-holder p{
+  color: #fff; }
 #fh5co-search-map .s-holder .input-field, #fh5co-search-map .s-holder section {
   width: 100%;
   float: left;
@@ -1022,7 +1025,7 @@ div.cs-select span {
 .fh5co-testimonial > div p, .fh5co-testimonial blockquote p, .fh5co-team > div p, .fh5co-team blockquote p {
   font-size: 16px;
   line-height: 1.5;
-  color: #555555; }
+  color: #fff; }
 .fh5co-testimonial span, .fh5co-team span {
   font-style: italic;
   color: #b3b3b3; }
