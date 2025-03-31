@@ -30,13 +30,14 @@ div.cs-select:focus {
 	cursor: pointer;
 	padding: 1em;
 	white-space: nowrap;
-	overflow: hidden;
+	overflow-y: hidden;
 	text-overflow: ellipsis;
 }
 
 /* Placeholder and selected option */
 .cs-select > span {
 	padding-right: 3em;
+
 }
 
 .cs-select > span::after,
@@ -72,8 +73,9 @@ div.cs-active {
 /* Options */
 .cs-select .cs-options {
 	position: absolute;
-	overflow: hidden;
+	overflow-y: scroll;
 	width: 100%;
+	height: 160px;
 	background: #fff;
 	visibility: hidden;
 }

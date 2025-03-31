@@ -16,7 +16,8 @@ body {
   background: #fff;
   color: #848484;
   font-weight: 300;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  max-width: 100%; }
 body.fh5co-offcanvas {
   overflow: hidden; }
 
@@ -549,16 +550,20 @@ figure {
   float: right;
   background: #fff !important;
   border: none;
+  height: 45px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0; }
+
 #fh5co-search-map .s-holder .wide {
   width: 60% !important;
   float: right; }
 #fh5co-search-map .s-holder .wide .cs-select-half {
   width: 48% !important;
-  float: left; }
+  float: left;}
+
+  
 #fh5co-search-map .s-holder .wide .cs-select-half:last-child {
   float: right; }
 #fh5co-search-map .s-holder .btn {
@@ -577,8 +582,15 @@ figure {
   width: 66.5%;
   float: right; }
 
+#fh5co-search-map .mape {
+  width: 66.5%;
+}
+
 div.cs-select span {
-  padding: 10px 10px; }
+  padding: 10px 10px;
+ 
+
+}
 
 .cs-skin-border {
   font-size: 16px;
@@ -624,7 +636,8 @@ div.cs-select span {
     padding: 4em 0; } }
 
 .fh5co-section-gray {
-  background: rgba(0, 0, 0, 0.04); }
+  background:#fff;}
+  
 
 .heading-section {
   padding-bottom: 1em;
